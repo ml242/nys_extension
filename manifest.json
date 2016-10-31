@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+
+  "name": "History Hunter",
+  "description": "This extension finds the closest historical site to where you live -- nys only",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "History Hunter!"
+  },
+  "permissions": [
+    "activeTab",
+    "geolocation",
+    "https://ajax.googleapis.com/"
+  ]
+}
